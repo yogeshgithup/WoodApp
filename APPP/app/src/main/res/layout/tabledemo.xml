@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:weightSum="10"
+    android:layout_height="match_parent">
+
+    <TableLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:stretchColumns="1">
+
+        <TableRow
+
+            android:id='@+id/trr1'
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+
+            <TextView
+                android:id="@+id/tvsrno12"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1"
+                android:background="#FFF"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:text="Sr No."
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <TextView
+                android:id="@+id/tvlength12"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1"
+                android:background="#FFF"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:text="length"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <TextView
+                android:id="@+id/tvheight12"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1"
+                android:background="#FFF"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:text="Width"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <TextView
+                android:id="@+id/tvthick12"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1"
+                android:background="#FFF"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:text="Thick"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <TextView
+                android:id="@+id/tvcfeet12"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1"
+                android:background="#FFF"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:text="CFT"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1"
+                android:background="#FFF"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:text="Action"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="top">
+
+
+        <TableLayout
+            android:id='@+id/measuretbl'
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_gravity="top"
+            android:orientation="vertical"
+            android:paddingLeft="1dp"
+            android:stretchColumns="1"
+            android:paddingRight="1dp">
+
+            <TableRow
+                android:id='@+id/trr2'
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <!--android:background="#000"-->
+
+
+                <TextView
+                    android:id="@+id/tvsrno2"
+
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:background="#FFF"
+                    android:gravity="left"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="Sr No."
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+                <TextView
+                    android:id="@+id/tvlength2"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:background="#FFF"
+                    android:gravity="left"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="length"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+                <TextView
+                    android:id="@+id/tvheight2"
+                    android:layout_width="0dip"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:background="#FFF"
+                    android:gravity="left"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="Width"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+                <TextView
+                    android:id="@+id/tvthick2"
+                    android:layout_width="0dip"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:background="#FFF"
+                    android:gravity="left"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="Width"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+                <TextView
+                    android:id="@+id/tvcfeet2"
+                    android:layout_width="0dip"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:background="#FFF"
+                    android:gravity="left"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="Width"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+                <TextView
+                    android:id="@+id/tvedit2"
+                    android:layout_width="0dip"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:background="#FFF"
+                    android:gravity="left"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="Width"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+            </TableRow>
+            <TableRow
+                android:id='@+id/trr3'
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <!--android:background="#000"-->
+
+
+                <TextView
+                    android:id="@+id/tvsrno3"
+
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:background="#FFF"
+                    android:gravity="left"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="Sr No. 1234567"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+                <TextView
+                    android:id="@+id/tvlength3"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:background="#FFF"
+                    android:gravity="left"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="length"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+                <TextView
+                    android:id="@+id/tvheight3"
+                    android:layout_width="0dip"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:background="#FFF"
+                    android:gravity="left"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="Width"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+                <TextView
+                    android:id="@+id/tvthick3"
+                    android:layout_width="0dip"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:background="#FFF"
+                    android:gravity="left"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="Width"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+                <TextView
+                    android:id="@+id/tvcfeet3"
+                    android:layout_width="0dip"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:background="#FFF"
+                    android:gravity="left"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="Width"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+                <TextView
+                    android:id="@+id/tvedit3"
+                    android:layout_width="0dip"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:background="#FFF"
+                    android:gravity="left"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="Width"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+            </TableRow>
+            <TableRow
+                android:id='@+id/trr'
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <!--android:background="#000"-->
+
+
+                <TextView
+                    android:id="@+id/tvsrno"
+
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:background="#FFF"
+                    android:gravity="left"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="Sr No."
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+                <TextView
+                    android:id="@+id/tvlength"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:background="#FFF"
+                    android:gravity="left"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="length"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+                <TextView
+                    android:id="@+id/tvheight"
+                    android:layout_width="0dip"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:background="#FFF"
+                    android:gravity="left"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="Width"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+                <TextView
+                    android:id="@+id/tvthick"
+                    android:layout_width="0dip"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:background="#FFF"
+                    android:gravity="left"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="Width"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+                <TextView
+                    android:id="@+id/tvcfeet"
+                    android:layout_width="0dip"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:background="#FFF"
+                    android:gravity="left"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="Width"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+                <TextView
+                    android:id="@+id/tvedit"
+                    android:layout_width="0dip"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:background="#FFF"
+                    android:gravity="left"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="Width"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>
+

@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="1dp"
+        android:paddingTop="25dp">
+
+        <TextView
+            android:id="@+id/Srno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sr No :"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lblSrno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:text=""
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/wtype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wood Type :"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spntype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="15dp"
+        android:paddingLeft="1dp">
+
+
+        <TextView
+            android:id="@+id/partyname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"
+            android:text="Party Name :" />
+        <Spinner
+            android:id="@+id/spnparty"
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="1dp"
+        >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+                <TableLayout
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:stretchColumns="1">
+
+                    <TableRow
+
+                        android:id='@+id/trr1'
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp">
+
+
+                        <TextView
+                            android:id="@+id/tvsrno12"
+                            android:layout_height="wrap_content"
+                            android:layout_width="0dip"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:background="#FFF"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="5dp"
+                            android:text="Sr No."
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+                        <TextView
+                            android:id="@+id/tvlength12"
+                            android:layout_height="wrap_content"
+                            android:layout_width="0dip"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:background="#FFF"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="5dp"
+                            android:text="Length"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+                        <TextView
+                            android:id="@+id/tvheight12"
+                            android:layout_height="wrap_content"
+                            android:layout_width="0dip"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:background="#FFF"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="5dp"
+                            android:text="Width"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+                        <TextView
+                            android:id="@+id/tvthick12"
+                            android:layout_height="wrap_content"
+                            android:layout_width="0dip"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:background="#FFF"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="5dp"
+                            android:text="Thick"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+                        <TextView
+                            android:id="@+id/tvcfeet12"
+                            android:layout_height="wrap_content"
+                            android:layout_width="0dip"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:background="#FFF"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="5dp"
+                            android:text="CFT"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="0dip"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:background="#FFF"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="5dp"
+                            android:text="Action"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+                    </TableRow>
+
+                </TableLayout>
+                <ScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp">
+                <TableLayout
+                    android:id='@+id/measuretbl'
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:stretchColumns="1"
+                    android:paddingLeft="1dp"
+                    android:paddingTop="0dp">
+
+                    <TableRow
+                        android:id='@+id/trr'
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content">
+
+
+                        <!--android:background="#000"-->
+
+
+                        <TextView
+                            android:id="@+id/tvsrno"
+                            android:layout_width="0dip"
+                            android:layout_weight="1"
+                            android:layout_height="0dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:background="#FFF"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="5dp"
+                            android:text="Sr No."
+
+                            android:visibility="invisible"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+                        <TextView
+                            android:id="@+id/tvlength"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:background="#FFF"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="5dp"
+
+                            android:paddingRight="5dp"
+                            android:paddingTop="5dp"
+                            android:text="Length"
+                            android:visibility="invisible"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+                        <TextView
+                            android:id="@+id/tvheight"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:background="#FFF"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="5dp"
+                            android:text="Width"
+                            android:visibility="invisible"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+                        <TextView
+                            android:id="@+id/tvthick"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:background="#FFF"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="5dp"
+                            android:visibility="invisible"
+                            android:text="Thick"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+                        <TextView
+                            android:id="@+id/tvcfeet"
+                            android:layout_width="51dp"
+                            android:layout_height="0dp"
+                            android:layout_marginLeft="1dp"
+
+                            android:layout_marginTop="1dp"
+                            android:background="#FFF"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="5dp"
+                            android:text="CFT"
+                            android:visibility="invisible"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+                        <TextView
+                            android:id="@+id/tvedit"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginTop="1dp"
+                            android:background="#FFF"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:visibility="invisible"
+                            android:paddingTop="5dp"
+                            android:text="Action"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+                    </TableRow>
+
+                </TableLayout>
+                </ScrollView>
+            </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <!--<Space-->
+            <!--android:layout_width="15dp"-->
+            <!--android:layout_height="15dp" />-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="10dp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+        <Space
+            android:layout_width="100dp"
+            android:layout_height="10dp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lbltotal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total Cubic Feet"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/tvtotal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:text="0" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="0.99">
+         <Button
+             android:id="@+id/button"
+             android:layout_width="wrap_content"
+             android:layout_height="50dp"
+             android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+             android:textStyle="bold"
+             android:text="Submit"
+             android:layout_weight="0.33" />
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"
+            android:layout_weight="0.33"
+            android:text="Clear"/>
+        <Button
+            android:id="@+id/btnbackspace"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"
+            android:layout_weight="0.33"
+            android:text="←"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="0.99">
+        <Button
+            android:id="@+id/btnseven"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"
+            android:text="7"
+            android:layout_weight="0.33" />
+        <Button
+            android:id="@+id/btneight"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"
+            android:layout_weight="0.33"
+            android:text="8"/>
+        <Button
+            android:id="@+id/btnnine"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"
+            android:layout_weight="0.33"
+            android:text="9"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="0.99">
+        <Button
+            android:id="@+id/btnfour"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"
+            android:text="4"
+            android:layout_weight="0.33" />
+        <Button
+            android:id="@+id/btnfive"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"
+            android:layout_weight="0.33"
+            android:text="5"/>
+        <Button
+            android:id="@+id/btnsix"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"
+            android:layout_weight="0.33"
+            android:text="6"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="0.99">
+        <Button
+            android:id="@+id/btnone"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"
+            android:text="1"
+            android:layout_weight="0.33" />
+        <Button
+            android:id="@+id/btntwo"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"
+            android:layout_weight="0.33"
+            android:text="2"/>
+        <Button
+            android:id="@+id/btnthree"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"
+            android:layout_weight="0.33"
+            android:text="3"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0.99">
+            <Button
+                android:id="@+id/btnzero"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:text="0"
+                android:layout_weight="0.33" />
+            <Button
+                android:id="@+id/btnpoint"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_weight="0.33"
+                android:text="."/>
+            <Button
+                android:id="@+id/btntab"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_weight="0.33"
+                android:text="TAB"/>
+        </LinearLayout>
+    </LinearLayout>
+    
